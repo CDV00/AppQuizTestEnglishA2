@@ -1,0 +1,42 @@
+.contentPart8{
+    display: flex;
+    font-size: 25px;
+    .post{
+        width: 70%;
+        min-width: 300px;
+        padding-right: 30px;
+        border-right: 1px solid;
+    }
+    .answer{
+        width: 30%;
+        margin-left: 30px;
+        
+        .result-item{
+            display: flex;
+            label{
+                width: 50px;
+                margin-right: 10px;
+                font-weight: bold;
+            }
+            input{
+                font-size: 25px;
+            }
+        }
+        
+        div{
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        .answerTrue{
+            color: #fff;
+            background-color: green;
+            border: none;
+        }
+        
+        .answerFalse{
+            color: #fff;
+            background-color: red;
+            border: none;
+        }
+    }
+}

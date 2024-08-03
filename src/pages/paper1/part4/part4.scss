@@ -1,0 +1,61 @@
+.contentPart4 {
+    display: flex;
+
+    .clauseA {
+        width: 650px;
+        margin-right: 20px;
+        padding-right: 20px;
+
+
+        .item {
+
+            display: flex;
+
+            .character {
+                width: 80px;
+            }
+
+            .conrrect {
+                color: rgb(179, 56, 18);
+                border-bottom: 1px solid;
+            }
+        }
+
+        border-right: 1px solid;
+    }
+
+    .clauseB {
+        margin-left: 30px;
+
+        p {
+            b {
+                margin-right: 20px;
+            }
+
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.result {
+    border-top: 1px solid;
+    padding: 20px;
+
+    label {
+        font-weight: bold;
+    }
+
+    .results {
+        display: flex;
+
+        div {
+            label {
+                margin-left: 30px;
+            }
+        }
+    }
+
+    input {
+        width: 100px;
+    }
+}

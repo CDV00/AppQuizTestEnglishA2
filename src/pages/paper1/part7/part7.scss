@@ -1,0 +1,53 @@
+.contentPart7{
+    .question{
+        font-size: 30px;
+        display: flex;
+        .clauseA{
+            width:70%;
+            border-right: 1px solid;
+            p{
+                display: flex;
+                .question-item{
+                    width: 50px;
+                }
+            }
+        }
+        .clauseB{
+            margin-left: 40px;
+        }
+    }
+    .result {
+        border-top: 1px solid;
+        padding: 20px;
+    
+        label {
+            font-weight: bold;
+        }
+    
+        .results {
+            display: flex;
+    
+            div {
+                label {
+                    margin-left: 30px;
+                }
+            }
+            .answerTrue{
+                color: #fff;
+                background-color: green;
+                border: none;
+            }
+            
+            .answerFalse{
+                color: #fff;
+                background-color: red;
+                border: none;
+            }
+
+        }
+    
+        input {
+            width: 80px;
+        }
+    }
+}

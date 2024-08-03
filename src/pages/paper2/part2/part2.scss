@@ -1,0 +1,65 @@
+.content-part-2{
+    .main-content{
+        .question{
+            display: flex;
+            h4{
+                margin-left: 3%;
+            }
+
+            .section-person{
+                width: 60%;
+                border-right: 1px solid ;
+                ul{
+                    li{
+                        padding-top: 10px;
+                        display: flex;
+                        list-style-type: none;
+                        b{
+                            width: 10%;
+                            min-width: 25px;
+                        }
+                        span{
+                            min-width: 80px;
+                            width: 30%;
+                        }
+                        input{
+                            min-width: 20px;
+                            width: 40px;
+                        }
+                        .answerTrue{
+                            color: #fff;
+                            background-color: green;
+                            border: none;
+                        }
+                        
+                        .answerFalse{
+                            color: #fff;
+                            background-color: red;
+                            border: none;
+                        }
+                        
+                    }
+                }
+            }
+
+            .section-event{
+                margin-left: 5%;
+                width: 30%;
+                ul{
+                    li{
+                        padding-top: 10px;
+                        list-style-type: none;
+                        display: flex;
+                        b{
+                            width: 20%;
+                            min-width: 25px;
+                        }
+                        span{
+                            min-width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

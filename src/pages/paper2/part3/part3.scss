@@ -1,0 +1,103 @@
+.content-part-3 {
+    .main-content {
+        .question {
+            .question-item {
+                display: flex;
+
+                p {
+                    width: 60%;
+                    display: flex;
+
+                    b {
+                        width: 10%;
+                        min-width: 30px;
+                    }
+                }
+
+                ul {
+                    width: 40%;
+
+                    li {
+                        display: flex;
+                        list-style-type: none;
+
+                        b {
+                            width: 10%;
+                            min-width: 30px;
+                        }
+
+                        span {
+                            width: 50%;
+                        }
+
+                        /* Bao gồm CSS ở đây */
+                        input[type="checkbox"] {
+                            appearance: none;
+                            width: 20px;
+                            height: 20px;
+                            border: 2px solid ;
+                            border-radius: 3px;
+                            cursor: pointer;
+                        }
+
+                        input[type="checkbox"]:not(:checked) {
+                            background-color: white;
+                        }
+
+                        input[type="checkbox"]:checked {
+                            background-color: white;
+                            border-color: #ccc;
+                        }
+
+                        //result true
+                        input[type="checkbox"].answerTrue:checked {
+                            background-color: green;
+                            border-color: green;
+                            color: white;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        input[type="checkbox"].answerTrue:checked::before {
+                            content: '✔';
+                            font-size: 16px;
+                        }
+
+                        //checked simple
+                        input[type="checkbox"]:checked {
+                            background-color: rgb(76, 87, 76);
+                            border-color: rgb(79, 90, 79);
+                            color: white;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        input[type="checkbox"]:checked::before {
+                            content: '✔';
+                            font-size: 16px;
+                        }
+
+                        //result false
+                        input[type="checkbox"].answerFalse:checked {
+                            background-color: red;
+                            border-color: red;
+                            color: white;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        input[type="checkbox"].answerFalse:checked::before {
+                            content: '✔';
+                            font-size: 16px;
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+}

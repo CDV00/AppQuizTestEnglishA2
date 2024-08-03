@@ -1,0 +1,43 @@
+.contentPart2 {
+    .question {
+        .item {
+            .item-result {
+                ul {
+                    display: flex;
+
+                    li {
+                        list-style-type: none;
+                        width: 100px;
+                        margin-right: 40px;
+                        .conrrect{
+                            padding: 5px 10px;
+                            background-color: aquamarine;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .result{
+        border-top: 1px solid;
+        padding: 20px;
+        label{
+            font-weight: bold;
+        }
+        .results{
+            display: flex;
+            
+            div{
+                label{
+                    margin-left: 30px;
+                }
+            }
+        }
+        
+        input{
+            width: 50px;
+        }
+    }
+    
+}

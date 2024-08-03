@@ -1,0 +1,285 @@
+const dataPart2 = [
+    {
+        id:1,
+        clauseA:{
+            title:"People",
+            persons:[
+                "David",
+                "Eva",
+                "Luke",
+                "Mary",
+                "Patrick",
+                "Cristina"
+            ]
+        },
+        clauseB:{
+            title:"Places",
+            places:[
+                "bank",
+                "Café",
+                "castle",
+                "market",
+                "museum",
+                "park",
+                "river",
+                "swimming pool",
+            ]
+        },
+        answers:{
+            "0":"E",
+            "1":"D",
+            "2":"F",
+            "3":"H",
+            "4":"A",
+            "5":"B",
+        }
+    },
+    {
+        id:2,
+        clauseA:{
+            title:"Places",
+            persons:[
+                "University Hotel",
+                "Brown's Café",
+                "Rivers Hotel",
+                "Bridge Restaurant",
+                "Garden House",
+                "Opera Café"
+            ]
+        },
+        clauseB:{
+            title:"Problems",
+            places:[
+                "closed",
+                "cold",
+                "dark",
+                "dirty",
+                "expensive",
+                "full",
+                "old",
+                "small",
+            ]
+        },
+        answers:{
+            "0":"G",
+            "1":"A",
+            "2":"D",
+            "3":"F",
+            "4":"E",
+            "5":"H",
+        }
+    },
+    {
+        id:3,
+        clauseA:{
+            title:"Days",
+            persons:[
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ]
+        },
+        clauseB:{
+            title:"Courses",
+            places:[
+                "Business Studies",
+                "Computer Studies",
+                "Cooking",
+                "Film Studies",
+                "Geography",
+                "Guitar",
+                "History of Art",
+                "The Night Sky",
+            ]
+        },
+        answers:{
+            "0":"F",
+            "1":"C",
+            "2":"D",
+            "3":"A",
+            "4":"H",
+            "5":"G",
+        }
+    },
+    {
+        id:4,
+        clauseA:{
+            title:"Days",
+            persons:[
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ]
+        },
+        clauseB:{
+            title:"Clotther",
+            places:[
+                "Blue shirt",
+                "coat",
+                "jacket",
+                "jeans",
+                "light trousers",
+                "shorts",
+                "suit",
+                "Sweater",
+            ]
+        },
+        answers:{
+            "0":"D",
+            "1":"G",
+            "2":"E",
+            "3":"B",
+            "4":"F",
+            "5":"A",
+        }
+    },
+    {
+        id:5,
+        clauseA:{
+            title:"PEOPLE",
+            persons:[
+                "chris",
+                "Amy",
+                "James",
+                "Claire",
+                "tom",
+                "Jane",
+            ]
+        },
+        clauseB:{
+            title:"JOBS",
+            places:[
+                "book the room",
+                "buy a present",
+                "buy party food",
+                "get drinks",
+                "invite guests",
+                "make cake",
+                "plan the music",
+                "put up balloons",
+            ]
+        },
+        answers:{
+            "0":"F",
+            "1":"A",
+            "2":"E",
+            "3":"G",
+            "4":"D",
+            "5":"B",
+        }
+    },
+    {
+        id:6,
+        clauseA:{
+            title:"PEOPLE",
+            persons:[
+                "John",
+                "Pete",
+                "Emily",
+                "Jenny",
+                "Joe",
+                "Andy"
+            ]
+        },
+        clauseB:{
+            title:"ACTIVITIES",
+            places:[
+                "basketball",
+                "cycling",
+                "fishing",
+                "football",
+                "skateboarding",
+                "swimming",
+                "table-tennis",
+                "tennis",
+            ]
+        },
+        answers:{
+            "0":"C",
+            "1":"B",
+            "2":"H",
+            "3":"E",
+            "4":"D",
+            "5":"G",
+        }
+    },
+    {
+        id:7,
+        clauseA:{
+            title:"Places",
+            persons:[
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ]
+        },
+        clauseB:{
+            title:"Problems",
+            places:[
+                "none",
+                "one",
+                "two",
+                "three",
+                "four",
+                "five",
+                "six",
+                "seven",
+            ]
+        },
+        answers:{
+            "0":"D",
+            "1":"A",
+            "2":"F",
+            "3":"B",
+            "4":"C",
+            "5":"E",
+        }
+    },
+    {
+        id:8,
+        clauseA:{
+            title:"Places",
+            persons:[
+                "France",
+                "Italy",
+                "Mexico",
+                "India",
+                "Australia",
+                "Canada"
+            ]
+        },
+        clauseB:{
+            title:"Problems",
+            places:[
+                "animals",
+                "beach",
+                "countryside",
+                "food",
+                "hotel",
+                "shops",
+                "sport",
+                "weather",
+            ]
+        },
+        answers:{
+            "0":"H",
+            "1":"F",
+            "2":"D",
+            "3":"C",
+            "4":"A",
+            "5":"E",
+        }
+    },
+
+];
+
+export default dataPart2;

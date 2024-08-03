@@ -1,0 +1,16 @@
+.main-paper2{
+    width: 80%;
+    margin: auto;
+    >div:first-child{
+        display: flex;
+        span{
+            margin-left: 10px;
+            margin-top: 28px;
+        }
+    }
+    .parts{
+        button{
+            margin: 10px;
+        }
+    }
+}

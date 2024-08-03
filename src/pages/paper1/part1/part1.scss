@@ -1,0 +1,33 @@
+.contentPart1{
+    .question{
+        display: flex;
+        .clauseB{
+            margin-left: 30px;
+            p{
+                padding: 12px;
+                span{
+                    border: 1px solid;
+                    border-radius: 5px;
+                    padding: 15px;
+                    
+                }
+            }
+        }
+    }
+    .result{
+        .results{
+            display: flex;
+            
+            div{
+                label{
+                    margin-left: 30px;
+                }
+            }
+        }
+        
+        input{
+            width: 50px;
+        }
+    }
+    
+}
